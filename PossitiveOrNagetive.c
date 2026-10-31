@@ -8,15 +8,15 @@ int main()
 
   if (num > 0)
   {
-    printf("%d Number is Possitive");
+    printf("%d Number is Possitive",num);
   }
   else if (num == 0)
   {
-    printf("%d Number is Zerooo!");
+    printf("%d Number is Zerooo!",num);
   }
   else
   {
-    printf("%d Number is Nagetive");
+    printf("%d Number is Nagetive",num);
   }
 
   return 0;
