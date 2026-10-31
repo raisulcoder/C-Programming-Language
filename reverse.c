@@ -2,7 +2,7 @@
 int main()
 {
   long long num;
-  int rem, rev;
+  int rem, rev=0;
 
   printf("Enter your number:");
   scanf("%lld", &num);
@@ -10,6 +10,7 @@ int main()
   while(num!=0){
     rem = num % 10;
     rev = rev * 10 + rem;
+    num /= 10;
   }
   printf("%d", rev);
 
