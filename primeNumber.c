@@ -6,7 +6,7 @@ int main()
   printf("Enter your possitive integer:");
   scanf("%d", &num);
 
-  if(num==0 || num==1){
+  if(num==0 || num==1 || num<0){
     result = 1;
   }
   for (int i = 2; i <= num / 2;i++){
