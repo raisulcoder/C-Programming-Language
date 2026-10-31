@@ -3,10 +3,13 @@
 int main()
 {
   int num, original, rem, result = 0,digit=0;
-
+  jump:
   printf("Enter your number:");
   scanf("%d",&num);
-
+if(num==0){
+  printf("!Please enter the possitive number.\n");
+  goto jump;
+}
   original = num;
 
   while(num != 0){
