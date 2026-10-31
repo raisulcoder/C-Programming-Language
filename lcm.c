@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int n1, n2, gcd, lcd;
+  int n1, n2, gcd, lcm;
 
   printf("Enter your tow number:");
   scanf("%d %d", &n1, &n2);
@@ -11,7 +11,7 @@ int main()
       gcd = i;
     }
   }
-  lcd = (n1 * n2) / gcd;
-  printf("LCD: %d", lcd);
+  lcm = (n1 * n2) / gcd;
+  printf("LCM: %d", lcm);
   return 0;
 }
